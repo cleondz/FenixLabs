@@ -72,11 +72,10 @@
 				dispositivos móviles y aplicaciones web.</p>
 
 			<!-- Button to trigger modal -->
-			<a href="#myModal" role="button" data-toggle="modal"
+			<a href="index.php?r=site/contact" role="button" data-toggle="modal"
 				class="btn btn-large btn-custom"> <i class="icon-envelope"></i>
 				Contáctanos
 			</a>
-
 
 		</div>
 		<hr />

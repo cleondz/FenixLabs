@@ -14,7 +14,10 @@ $this->breadcrumbs=array(
 	<?php if(Yii::app()->user->hasFlash('contact')): ?>
 
 	<div class="flash-success">
-		<?php echo Yii::app()->user->getFlash('contact'); ?>
+		<h2><?php echo Yii::app()->user->getFlash('contact'); ?></h2>
+		<?php echo CHtml::link('Inicio', array('site/index'),array('class'=>'btn')); ?>
+		<br/>
+		<br/>
 	</div>
 
 	<?php else: ?>
